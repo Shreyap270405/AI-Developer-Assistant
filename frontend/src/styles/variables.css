@@ -1,0 +1,69 @@
+:root {
+  /* Color Palette - Premium Dark Theme */
+  --bg-canvas: #0a0d14;
+  --bg-subtle: #101420;
+  --bg-panel: #151a28;
+  --bg-surface: #1c2235;
+  --bg-surface-hover: #242c44;
+  --bg-surface-active: #2c3654;
+
+  /* Borders & Dividers */
+  --border-subtle: #20273c;
+  --border-default: #2b3450;
+  --border-focus: #3b82f6;
+  --border-glow: rgba(59, 130, 246, 0.45);
+
+  /* Brand Accents */
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-subtle: rgba(59, 130, 246, 0.15);
+  --secondary: #8b5cf6;
+  --secondary-subtle: rgba(139, 92, 246, 0.15);
+  --cyan: #06b6d4;
+  --cyan-subtle: rgba(6, 182, 212, 0.15);
+  --emerald: #10b981;
+  --emerald-subtle: rgba(16, 185, 129, 0.15);
+  --amber: #f59e0b;
+  --amber-subtle: rgba(245, 158, 11, 0.15);
+  --rose: #f43f5e;
+  --rose-subtle: rgba(244, 63, 94, 0.15);
+
+  /* Gradients */
+  --grad-brand: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%);
+  --grad-surface: linear-gradient(180deg, rgba(28, 34, 53, 0.8) 0%, rgba(21, 26, 40, 0.95) 100%);
+  --grad-glow: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 75%);
+
+  /* Typography */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-accent: #38bdf8;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Elevation / Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(59, 130, 246, 0.25);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --trans-quick: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Semantic aliases ───────────────────────────────────────────────────── */
+  /* accent */
+  --accent-primary: var(--primary);
+  --accent-hover:   var(--primary-hover);
+  --accent-subtle:  var(--primary-subtle);
+
+  /* surfaces */
+  --bg-elevated: var(--bg-surface);
+  --bg-input:    var(--bg-subtle);
+}
